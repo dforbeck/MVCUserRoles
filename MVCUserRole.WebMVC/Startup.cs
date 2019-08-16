@@ -36,10 +36,10 @@ namespace MVCUserRole.WebMVC
                 //Here we create a Admin super user who will maintain the website                  
 
                 var user = new ApplicationUser();
-                user.UserName = "shanu";
-                user.Email = "syedshanumcain@gmail.com";
+                user.UserName = "debbie";
+                user.Email = "debbie@debbie.com";
 
-                string userPWD = "A@Z200711";
+                string userPWD = "1@23456";
 
                 var chkUser = UserManager.Create(user, userPWD);
 
