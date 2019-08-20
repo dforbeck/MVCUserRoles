@@ -1,9 +1,10 @@
 ﻿-- =============================================                                 
+-- source : https://code.msdn.microsoft.com/ASPNET-MVC-5-Security-And-44cbdb97 
 -- Author      : Debbie                                  
 -- Create date : 2019-08-15                                
 -- Description : To Create Database                           
---   source: 
--- https://code.msdn.microsoft.com/ASPNET-MVC-5-Security-And-44cbdb97   
+--   
+--   
 -- =============================================   
 -- CREATES SAMPLE DATABASE THAT HOUSES BOTH USER AND DATA VALUES
 
