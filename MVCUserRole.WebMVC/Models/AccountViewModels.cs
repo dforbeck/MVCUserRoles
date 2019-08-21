@@ -48,10 +48,16 @@ namespace MVCUserRole.WebMVC.Models
 
     public class LoginViewModel
     {
+        /* NOT USING EMAIL NOW
         [Required]
         [Display(Name = "Email")]
         [EmailAddress]
         public string Email { get; set; }
+        */
+
+        [Required]
+        [Display(Name = "UserName")]
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
