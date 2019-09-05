@@ -39,7 +39,7 @@ namespace MVCUserRole.WebMVC
                 user.UserName = "debbie";
                 user.Email = "debbie@debbie.com";
 
-                string userPWD = "1@23456";
+                string userPWD = "a@Z123456";
 
                 var chkUser = UserManager.Create(user, userPWD);
 
