@@ -10,7 +10,7 @@ using System.Web.Mvc;
 namespace MVCUserRole.WebMVC.Controllers
 {   
     [Authorize]
-    public class UsersController : Controller
+    public class UserController : Controller
     {
         // GET: Users
         public ActionResult Index()
